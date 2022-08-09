@@ -33,6 +33,7 @@
 			});
 		}
 	};
+	
 //Efeito ScrollSuave
 	
 var $doc = $('html, body');
@@ -44,10 +45,6 @@ $('.scrollSuav').click(function() {
 });
 	
 
-	// Parallax
-	var parallax = function() {
-		$(window).stellar();
-	};
 
 	var contentWayPoint = function() {
 		var i = 0;
@@ -114,8 +111,6 @@ $('.scrollSuav').click(function() {
 		goToTop();
 		loaderPage();
 		fullHeight();
-		parallax();
-		// pieChart();
 	});
 
 
